@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<title>Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:radial-gradient(circle at 10% 20%, rgba(0,229,255,.35), transparent 25%),
+    radial-gradient(circle at 90% 80%, rgba(123,47,247,.35), transparent 25%),
+    linear-gradient(135deg,#0f172a,#111827,#1e293b,#0f172a);;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#0066cc,#00aaff);
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+
+header img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+nav{
+    background:#003366;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:15px 20px;
+    transition:.3s;
+}
+
+nav a:hover{
+    background:#0055aa;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:30px 0;
+}
+
+section{
+    
+    background:radial-gradient(circle at 10% 20%, rgba(0,229,255,.35), transparent 25%),
+    radial-gradient(circle at 90% 80%, rgba(123,47,247,.35), transparent 25%),
+    linear-gradient(135deg,#0f172a,#111827,#1e293b,#0f172a);;;
+    padding:30px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+h2{
+    color:#0066cc;
+    margin-bottom:15px;
+    border-left:6px solid #0066cc;
+    padding-left:10px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+}
+
+.skill{
+    background:blue;
+    padding:15px;
+    border-radius:8px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.project{
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.project:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+.project img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.project-content{
+    padding:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th, table td{
+    border:1px solid #ddd;
+    padding:12px;
+}
+
+table th{
+    background:#0066cc;
+    color:white;
+}
+
+ul{
+    margin-left:20px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#0066cc;
+    text-decoration:none;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+
+header{
+padding:25px;
+}
+
+nav{
+flex-direction:column;
+}
+
+nav a{
+text-align:center;
+}
+
+}
+</style>
+
+</head>
+<body>
+<header>
+<img src="c:\Users\User\Downloads\a98c1412-f241-4c8c-9ea8-33ce71e56524 (1).jpg">
+<h1>Kristine T. Adalid</h1>
+<h3>Bachelor of Science in Information Technology</h3>
+<p>Aspiring Web Developer | Programmer | Future IT Professional</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+<br>
+
+<div class="container">
+<section id="about">
+<h2>About Me</h2>
+<div class="card" style="width:400px">
+    <img class="card-img-top" src="c:\Users\User\Downloads\Gemini_Generated_Image_o3u90so3u90so3u9.png" alt="Card image" style="width:100%">
+  </div>
+<p>
+Hello! I am Kristine T. Adalid a Bachelor of Science in Information Technology student who is passionate about software development, web design, networking, and database management. I enjoy learning new technologies and creating innovative solutions to real-world problems.
+</p>
+</section>  
+<section id="education">
+<h2>Educational Background</h2>
+<div class="container mt-3">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="c:\Users\User\Downloads\cropped-dnsc-logo-new-removebg-preview.png" alt="Card image" style="width:100%">
+  </div>
+  <br>
+ 
+      <table>
+      <tr>
+      <td>Junior High School</td>
+      <td>Senior High School</td>
+      <td>College</td>
+      </tr>
+
+      <tr>
+      <td>San Vicente National High School (SVNHS)</td>
+      <td>San Vicente National High School (SVNHS)</td>
+      <td> Davao del Norte State Collage (DNSC)</td>
+      </tr>
+      </table>
+      </div>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+      <div class="skill">Java</div>
+      <div class="skill">HTML</div>
+      <div class="skill">Css</div>
+      <div class="skill">Bootstrap</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Visual Studio Code</div>
+      </div>
+</div>
+</section>
+
+<section>
+<h2>Soft Skills</h2>
+<ul>
+<li>Problem Solving</li>
+<li>Critical Thinking</li>
+<li>Leadership</li>
+<li>Communication</li>
+<li>Teamwork</li>
+<li>Adaptability</li>
+<li>Time Management</li>
+</ul>
+</section>
+
+
+<section id="contact" class="contact">
+<h2>Contact Information</h2>
+<p><strong>Email:</strong> kristineadalid304.com</p>
+<p><strong>Phone:</strong> +63 912 345 6789</p>
+<p><strong>facebook:</strong> Kristine Adalid</p>
+</section>
+</div>
+
+<footer>
+<p>© 2026 Kristine T. Adalid | BSIT Student Portfolio</p>
+</footer>
+</body>
+</html>
